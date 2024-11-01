@@ -1,0 +1,45 @@
+.Experience__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    h4{
+        width: max-content;
+        padding: 8px 14px;
+        border-radius: 30px;
+        background-color: #e8e5e480;
+        border: none;
+        margin-bottom: 20px;
+    }
+}
+
+.Experience__card{
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 16px;
+    p{
+     color: gray ;
+
+    }
+
+    h4{
+        width: max-content;
+        padding: 8px 14px;
+        border-radius: 30px;
+        background-color: #e8e5e480;
+        border: none;
+        margin-bottom: 20px;
+    }
+    
+}
+.Experience__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+}
